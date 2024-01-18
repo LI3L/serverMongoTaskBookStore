@@ -1,0 +1,54 @@
+//add book
+localhost:3000/api/books/
+
+[{
+    "title":"snow white",
+    "publishingYear":2000,
+    "geners":["fiction","children"],
+    "authors":["65a79230c8c0dabffafb4e90","65a792e0c8c0dabffafb4e92"],
+    "quantity":1000,
+    "price":10
+},
+{
+    "title":"harry poter",
+    "publishingYear":1800,
+    "geners":["fiction","fantasy"],
+    "authors":["65a7932dc8c0dabffafb4e94","65a79367c8c0dabffafb4e96"],
+    "quantity":1000,
+    "price":10
+},
+{
+    "title":"pokemon",
+    "publishingYear":1900,
+    "geners":["action","fiction"],
+    "authors":["65a79230c8c0dabffafb4e90","65a792e0c8c0dabffafb4e92"],
+    "quantity":1000,
+    "price":10
+}
+]
+//////////////////////////////////////////////////////////////////////////////////
+
+//create order
+localhost:3000/api/orders/
+[
+{
+    "bookId":"65a921529ed0125f26fa1c9d",
+    "quantity":1   
+},{
+    "bookId":"65a921529ed0125f26fa1c9f",
+    "quantity":1   
+},{
+    "bookId":"65a921529ed0125f26fa1ca1",
+    "quantity":1   
+}
+
+]
+
+
+
+
+expamle for dates 
+
+localhost:3000/api/orders/most5PopularAuthors/2024-01-17T00:00:00.000Z/2024-01-18T23:59:59.999Z
+
+
